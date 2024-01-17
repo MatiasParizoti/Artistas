@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+::-webkit-scrollbar{
+    background-color: #000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ffffff96;
+}
+html{
+    background-color: black;
+    margin: 0;
+}
+main{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1{
+    color: #fff;
+    font-size: 48px;
+    margin-top: 20px;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+.interface h1{
+    display: flex;
+   justify-content: center;
+}
+.interface h1 span{
+    background-image: linear-gradient(to left, #00f7ff, #7bff00);
+    margin-left: 10px;
+    background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+}
+.flex{
+    display: flex;
+   justify-content: center;
+    
+}
+.efeito-dua-lipa, .efeito-travis-scott, .efeito-alok, .efeito-veigh, .efeito-the-weeknd, .titulo{
+    visibility: hidden;
+}
+
+/* conteudo */
+.barra{
+    margin-top: 10px;
+    height: 440px;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px   15px  #fff;
+    border-radius: 30%;  
+    height: 440px; 
+}
+.V{
+    position: relative;
+    top: 50px;
+    height: 490px; 
+}
+.artistas{
+    margin-top: 20px;
+    width: 200px;
+    height: 400px;
+}
+/* DUA LIPA */
+.bg1{
+    height: 410px;
+    width: 100%;
+    border-radius: 20px;
+ 
+}
+.bg1:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.562);
+    box-shadow:  0 0 15px 0 rgb(255, 255, 255, 0.562), inset 0 0 15px 0 rgb(255, 255, 255, 0.562) ;
+}
+.dua-lipa{
+    position: relative;
+    z-index: 20;
+    margin-right: 1px;
+}
+.dua-lipa :hover{
+    transition: all 0.5s ease-in-out;
+}
+.dua-lipa img{
+    position: relative;
+    top: -180px;
+    left: 21px;
+    height: 350px;
+    width: 180px;
+    z-index: 201;
+    border-radius: 20px;
+    
+}
+.nome-dua-lipa{
+    writing-mode: vertical-rl;
+    font-size: 55px;
+    color: black;
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+    display: inline;
+    z-index: 202;
+}
+/* TRAVIS SCOTT */
+.bg2{
+    position: relative;
+    top: 50px;
+    height: 410px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.bg2:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.562);
+    box-shadow:  0 0 15px 0 rgb(255, 255, 255, 0.562), inset 0 0 15px 0 rgb(255, 255, 255, 0.562) ;
+}
+.travis-scott{
+    position: relative;
+    z-index: 19;
+}
+.travis-scott :hover{
+    transition: all 0.5s ease-in-out;
+}
+.travis-scott img{
+    position: relative;
+    top: -28px;
+    left: 0px;
+    height: 360px;
+    width: 200px;
+    z-index: 2;
+}
+.nome-travis{
+    font-size: 53px;
+    color: black;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 1;
+}
+/* ALOK */
+.bg3{
+    position: relative;
+    top: 100px;
+    height: 410px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.bg3:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.562);
+    box-shadow:  0 0 15px 0 rgb(255, 255, 255, 0.562), inset 0 0 15px 0 rgb(255, 255, 255, 0.562) ;
+}
+.alok{
+    position: relative;
+    z-index: 19;
+}
+.alok :hover{
+    transition: all 0.5s ease-in-out;
+}
+.alok img{
+    position: relative;
+    top: -28px;
+    left: 0px;
+    height: 360px;
+    width: 200px;
+    z-index: 2;
+}
+.nome-alok{
+    font-size: 55px;
+    color: black;
+    position: relative;
+    top: -10px;
+    left: 30px;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 1;
+}
+/* VEIGH */
+.bg4{
+    position: relative;
+    top: 50px;
+    height: 410px;
+    width: 100%;
+    border-radius: 20px 20px 10px 20px;
+
+}
+.bg4:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.562);
+    box-shadow:  0 0 15px 0 rgb(255, 255, 255, 0.562), inset 0 0 15px 0 rgb(255, 255, 255, 0.562) ;
+}
+.veigh{
+    position: relative;
+    z-index: 19;
+}
+.veigh :hover{
+    transition: all 0.5s ease-in-out;
+}
+.veigh img{
+    position: relative;
+    top: -33px;
+    left: 0px;
+    height: 360px;
+    width: 200px;
+    z-index: 2;
+}
+.nome-veigh{
+    font-size: 55px;
+    color: black;
+    position: relative;
+    top: -5px;
+    left: 20px;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 1;
+}
+/* THE-WEEKND */
+.bg5{
+    height: 410px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.bg5:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.562);
+    box-shadow:  0 0 15px 0 rgb(255, 255, 255, 0.562), inset 0 0 15px 0 rgb(255, 255, 255, 0.562) ;
+}
+.the-weeknd{
+    position: relative;
+    z-index: 19;
+}
+.the-weeknd :hover{
+    transition: all 0.5s ease-in-out;
+}
+.the-weeknd img{
+    position: relative;
+    top: -328px;
+    left: 0px;
+    height: 400px;
+    width: 230px;
+    z-index: 2;
+}
+.nome-the-weeknd{
+    font-size: 55px;
+    position: relative;
+    color: #000;
+    top:40px;
+    left: 120px;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 1;
+    writing-mode: vertical-rl;
+
+}
